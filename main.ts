@@ -7,5 +7,8 @@ class Calculator {
     }
 }
 
-const calculator = new Calculator();
-console.log(calculator.add(2, 3));
+(() => {
+    const calculator = new Calculator();
+    console.log(calculator.add(2, 3));
+})();
+
